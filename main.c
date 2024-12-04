@@ -56,6 +56,10 @@ int main()
     ft_printf("%p %p\n", (void *)LONG_MIN, (void *)LONG_MAX);  // Use (void *) to cast the values to pointers
     printf("%p %p\n", (void *)LONG_MIN, (void *)LONG_MAX);  // Use (void *) to cast the values to pointers
 
+    int result1 = ft_printf(NULL);
+    int result2 = printf(NULL);
 
+    printf("ft_printf returned: %d\n", result1);
+    printf("printf returned: %d\n", result2);
     return 0;
 }

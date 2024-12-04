@@ -6,7 +6,7 @@
 /*   By: lkramer <lkramer@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 12:13:48 by lkramer           #+#    #+#             */
-/*   Updated: 2024/12/03 18:38:58 by lkramer          ###   ########.fr       */
+/*   Updated: 2024/12/04 16:27:38 by lkramer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 int	ft_print_char(int c)
 {
 	if (write(1, &c, 1) < 0) 
-        return (-1);
-    return (1); 
+		return (-1);
+	return (1); 
 }
